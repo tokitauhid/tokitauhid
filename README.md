@@ -1,54 +1,73 @@
-<div align="center">
+```text
+┌─ toki@infra:~# ──────────────────────────────────────────────────────────┐
+│ NODE     : TOKI-INFRA-01                 ROLE   : DEVOPS · SRE · SYSTEMS │
+│ LOCATION : BANGLADESH (UTC+6)            STACK  : TRUENAS · ZFS · DOCKER │
+│ HOMELAB  : 41 SERVICES · 04 VLANS        STATUS : ● OPEN TO REMOTE ROLES │
+└──────────────────────────────────────────────────────────────────────────┘
+```
 
-# Toki Tauhid
+### Toki Tauhid Mim
 
-**CS Student • Android, Full-Stack & Linux Systems Builder**
+**Infrastructure Engineer · DevOps Practitioner · Linux & Android Builder**
 
-[![Website](https://img.shields.io/badge/tokitauhid.me-0F172A?style=flat-square&logo=googlechrome&logoColor=white)](https://tokitauhid.me/)
-[![X](https://img.shields.io/badge/@Tauhidtoki-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/Tauhidtoki)
+I design and operate self-hosted infrastructure — **TrueNAS SCALE**, **ZFS pools**, **41 modular Docker Compose services**, automated **3-2-1 backups**, and zero-trust access over **Tailscale** and **Cloudflare Tunnels** — alongside web platforms and offline-first Android apps. Pursuing a **BSc in CSE** and mentoring **15+ peers** in Git, Linux, and networking workflows.
 
-</div>
-
----
-
-### About
-
-- Building **offline-first Android apps** with Kotlin, Jetpack Compose, and TypeScript / React Native
-- Shipping **Next.js & React web apps** for campus and personal productivity
-- Hacking on **Linux desktop & hardware tooling** — userspace HID daemons, PySide6 utilities, and Wayland/Hyprland workflows
-- Running a **TrueNAS Community Edition homelab** with 41 modular Docker Compose services, ZFS storage, Tailscale mesh VPN, and Cloudflare Zero Trust Tunnels
-
----
-
-### Featured Projects
-
-| Project | What it does | Stack |
-| :--- | :--- | :--- |
-| **[sujud](https://github.com/tokitauhid/sujud)** | Salah tracker and habit companion for Android with consistency trends, prayer reminders, and cross-device sync | `TypeScript` |
-| **[listen-quran](https://github.com/tokitauhid/listen-quran)** | Offline-first Quran audio streaming app for Android | `Kotlin` · `Jetpack Compose` · `M3` |
-| **[Orios-Class-Portal-V2](https://github.com/tokitauhid/Orios-Class-Portal-V2)** | Class portal tracking assignments, lab reports, schedules, and live exam countdowns ([live](https://notes.tokitauhid.me)) | `Next.js` · `React` · `JavaScript` |
-| **[homelab-setup-details](https://github.com/tokitauhid/homelab-setup-details)** | Modular TrueNAS CE homelab with 41 Docker Compose services via Dockge, ZFS hardlinks, and 3-layer Vaultwarden backups | `Docker` · `TrueNAS` · `Tailscale` |
-| **[Synkromium](https://github.com/tokitauhid/Synkromium)** | Private, Git-backed Chromium browser sync for extensions, bookmarks, and settings with built-in secret scanning | `TypeScript` |
-| **[dareu-ek925II-linux-daemon](https://github.com/tokitauhid/dareu-ek925II-linux-daemon)** | Userspace HID daemon fixing media keys & volume knob on Dareu EK925 II keyboards on Linux | `Shell` · `HID` · `PipeWire` |
-| **[ShiftCursor](https://github.com/tokitauhid/ShiftCursor)** | Drag-and-drop converter turning Windows `.cur`/`.ani` cursor themes into native Linux X11 cursors | `Python` · `PySide6` |
-| **[tailscale-on-rooted-android](https://github.com/tokitauhid/tailscale-on-rooted-android)** | Turns a rooted Android device into a 24/7 Tailscale subnet gateway with Magisk & battery charge limiting | `Android` · `Magisk` · `Tailscale` |
+[![Portfolio](https://img.shields.io/badge/PORTFOLIO-tokitauhid.me-10B981?style=flat-square&labelColor=13161D)](https://tokitauhid.me)
+[![WhatsApp](https://img.shields.io/badge/WHATSAPP-@tokitauhid-10B981?style=flat-square&logo=whatsapp&logoColor=white&labelColor=13161D)](https://wa.me/qr/F3CBTAJBULYVJ1)
+[![Telegram](https://img.shields.io/badge/TELEGRAM-@Toki__Tauhid-3B82A0?style=flat-square&logo=telegram&logoColor=white&labelColor=13161D)](https://t.me/Toki_Tauhid)
+[![Discord](https://img.shields.io/badge/DISCORD-legitgamer-5865F2?style=flat-square&logo=discord&logoColor=white&labelColor=13161D)](https://tokitauhid.me/#contact)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-toki--tauhid-64748B?style=flat-square&labelColor=13161D)](https://www.linkedin.com/in/toki-tauhid-923056364/)
 
 ---
 
-### Tech Stack
+### `01 // SELECTED WORK`
 
-<div align="center">
+<table>
+<tr>
+<td width="50%" valign="top">
 
-![Tech Stack](https://skillicons.dev/icons?i=kt,ts,js,py,rust,bash,react,nextjs,androidstudio,linux,docker,git,neovim&theme=dark)
+#### `INFRASTRUCTURE & SYSTEMS`
 
-</div>
+**[homelab-setup-details](https://github.com/tokitauhid/homelab-setup-details)**  
+Modular TrueNAS CE platform running 41 Docker Compose services via Dockge — ZFS atomic hardlinks, 3-layer Vaultwarden nightly backups, self-hosted VS Code, and zero-trust ingress.  
+<sub><code>TrueNAS</code> · <code>ZFS</code> · <code>Docker</code> · <code>Tailscale</code> · <code>Cloudflare</code></sub>
+
+<br/>
+
+**[tailscale-on-rooted-android](https://github.com/tokitauhid/tailscale-on-rooted-android)**  
+Turns a rooted Android device into an always-on 24/7 Tailscale subnet gateway using Magisk daemon persistence and battery charge limiting.  
+<sub><code>Android</code> · <code>Magisk</code> · <code>WireGuard</code> · <code>Shell</code></sub>
+
+</td>
+<td width="50%" valign="top">
+
+#### `WEB & APPS`
+
+**[Orios-Class-Portal-V2](https://github.com/tokitauhid/Orios-Class-Portal-V2)** · **[Live ↗](https://notes.tokitauhid.me)**  
+Department resource hub serving 40+ active university students — centralizes notes, assignments, lab reports, schedules, and live exam countdowns with sub-second reads.  
+<sub><code>Next.js</code> · <code>React</code> · <code>Cloudflare</code> · <code>JavaScript</code></sub>
+
+<br/>
+
+**[sujud](https://github.com/tokitauhid/sujud)** & **[listen-quran](https://github.com/tokitauhid/listen-quran)**  
+Local-first Salah tracker and habit companion with consistency streaks (`TypeScript` · `React` · `Capacitor`), paired with an offline-first Material 3 Quran audio streaming app for Android (`Kotlin` · `Jetpack Compose`).  
+<sub><code>Kotlin</code> · <code>TypeScript</code> · <code>React</code> · <code>SQLite</code></sub>
+
+</td>
+</tr>
+</table>
 
 ---
 
-### Contribution Streak
+### `02 // SYSTEMS & STACK`
 
-<div align="center">
+| Domain | Tooling & Focus |
+| :--- | :--- |
+| **`SYSTEMS & STORAGE`** | `TrueNAS SCALE` · `ZFS (Pools, Snapshots, Scrubs)` · `Arch / Fedora Linux` · `POSIX ACLs` · `systemd` |
+| **`CONTAINERS & OPS`** | `Docker` · `Docker Compose` · `Dockge` · `3-2-1 Automated Backups` · `Bash` · `Cron` · `Git` |
+| **`NETWORKING & SEC`** | `Segmented VLANs` · `Tailscale Mesh VPN` · `Cloudflare Zero Trust Tunnels` · `AdGuard DNS` · `TLS` · `Wireshark` |
+| **`APPS & WEB`** | `Kotlin (Jetpack Compose)` · `TypeScript` · `Next.js / React` · `Cloudflare KV & Pages` · `SQLite` |
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=tokitauhid&theme=github-dark-blue&hide_border=true)](https://git.io/streak-stats)
+---
 
-</div>
+<sub><i>"The best way to learn infrastructure is to run it yourself."</i></sub>
